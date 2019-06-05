@@ -28,4 +28,19 @@ public class Man extends People implements Voice {
     public void saySomething() {
         System.out.println("Man say - Hello");
     }
+
+    @Override
+    public void eat(String food) {
+
+    }
+
+    @Override
+    public void multiply() {
+
+    }
+
+    @Override
+    public void goingToToilet() {
+
+    }
 }

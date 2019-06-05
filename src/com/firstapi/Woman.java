@@ -10,4 +10,19 @@ public class Woman extends People implements Voice{
     public void saySomething() {
         System.out.println("Woman say - Hi");
     }
+
+    @Override
+    public void eat(String food) {
+
+    }
+
+    @Override
+    public void multiply() {
+
+    }
+
+    @Override
+    public void goingToToilet() {
+
+    }
 }

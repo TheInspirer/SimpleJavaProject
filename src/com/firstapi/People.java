@@ -88,4 +88,8 @@ public abstract class People {  //abstract это класс- объект ко�
     public void display(){
         System.out.println("People class");
     }
+
+    public abstract void eat(String food);
+    public abstract void multiply();
+    public abstract void goingToToilet();
 }
