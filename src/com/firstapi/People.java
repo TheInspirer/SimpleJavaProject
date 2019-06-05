@@ -10,6 +10,7 @@ public class People {
     private Boolean scars;
     private int dnaCode;
     private Random random;
+    int num = 10; // тестовая переменная для показания возможностей super
 
     public People(String name, String surname, String lastName, String dateBirthday, Boolean scars) {
         random = new Random();
@@ -82,5 +83,9 @@ public class People {
                 ", dateBirthday= '" + dateBirthday + '\'' +
                 ", scars= " +         scars +
                 ", dnaCode= " +       dnaCode;
+    }
+
+    public void display(){
+        System.out.println("People class");
     }
 }

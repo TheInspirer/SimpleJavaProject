@@ -9,5 +9,6 @@ public class GetInfoAboutUsers {
         Woman d = new Woman("Elvina", "Sabirova", "Ulyzovna", "19.03.1996", true);
 
         System.out.println(a.toString());
+        //a.myMethod(); //Показывает возможности конструкции super - методы, super - переменные
     }
 }
