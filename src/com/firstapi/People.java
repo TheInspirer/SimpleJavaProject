@@ -77,7 +77,7 @@ public class People {
 
     @Override
     public String toString() {
-        return   "Name= '"   +        name + '\'' +
+        return  " Name= '"   +        name + '\'' +
                 ", surname= '" +      surname + '\'' +
                 ", lastName= '" +     lastName + '\'' +
                 ", dateBirthday= '" + dateBirthday + '\'' +

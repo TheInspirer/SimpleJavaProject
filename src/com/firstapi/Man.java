@@ -1,6 +1,6 @@
 package com.firstapi;
 
-public class Man extends People {
+public class Man extends People implements Voice {
     int num = 100;
 
     public Man(String name, String surname, String lastName, String dateBirthday, Boolean scars) {
@@ -22,5 +22,10 @@ public class Man extends People {
         // Выводим значение переменной num суперкласса
         System.out.println("Значение переменной num в суперклассе: " + super.num);
 
+    }
+
+    @Override
+    public void saySomething() {
+        System.out.println("Man say - Hello");
     }
 }

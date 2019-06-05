@@ -10,5 +10,7 @@ public class GetInfoAboutUsers {
 
         System.out.println(a.toString());
         //a.myMethod(); //Показывает возможности конструкции super - методы, super - переменные
+        a.saySomething();
+        c.saySomething();
     }
 }
