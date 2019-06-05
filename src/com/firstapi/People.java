@@ -2,7 +2,7 @@ package com.firstapi;
 
 import java.util.Random;
 
-public class People {
+public abstract class People {  //abstract это класс- объект которого нельзя создать
     private String name;
     private String surname;
     private String lastName;
