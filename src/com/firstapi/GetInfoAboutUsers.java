@@ -12,7 +12,7 @@ public class GetInfoAboutUsers {
         a.myMethod(); //Показывает возможности конструкции super - методы, super - переменные
         a.saySomething();
         c.saySomething();
-        People s = new Woman("Renata", "Shakirova", "Nailevna", "30.07.1995", false);
+        People s = new Woman("Renata", "Shakirova", "Nailevna", "30.07.1995", false); // Полиморфизм
         System.out.println(s.toString() + " " + s.getClass());
     }
 }
