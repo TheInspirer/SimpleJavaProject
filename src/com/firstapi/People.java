@@ -77,7 +77,7 @@ public abstract class People {  //abstract это класс- объект ко�
 
     @Override
     public String toString() {
-        return  " Name= '"   +        name + '\'' +
+        return  "Name= '"   +        name + '\'' +
                 ", surname= '" +      surname + '\'' +
                 ", lastName= '" +     lastName + '\'' +
                 ", dateBirthday= '" + dateBirthday + '\'' +
